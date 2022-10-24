@@ -1,5 +1,8 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 
+// UI5 Web Components
+import "@ui5/webcomponents/dist/Button";
+
 @Component({
   selector: 'app-sizer',
   templateUrl: './sizer.component.html',

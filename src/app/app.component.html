@@ -1,12 +1,12 @@
-<h1 id="two-way">Two-way Binding</h1>
+<ui5-title class="AppTitle" level="H1" id="two-way">Two-way Binding</ui5-title>
 <div id="two-way-1">
   <app-sizer [(size)]="fontSizePx"></app-sizer>
-  <div [style.font-size.px]="fontSizePx">Resizable Text</div>
-  <label>FontSize (px): <input [(ngModel)]="fontSizePx"></label>
+  <div><ui5-label [style.font-size.px]="fontSizePx">Resizable Text</ui5-label></div>
+  <ui5-label for="fontSizePx" >FontSize (px):</ui5-label><ui5-input ngDefaultControl id="fontSizePx" [(ngModel)]="fontSizePx" name="fontSizePx"></ui5-input>
 </div>
 <br>
 <div id="two-way-2">
-  <h2>De-sugared two-way binding</h2>
+  <ui5-title class="SubTitle" level="H2">De-sugared two-way binding</ui5-title>
   <app-sizer [size]="fontSizePx" (sizeChange)="fontSizePx=$event"></app-sizer>
 </div>
 

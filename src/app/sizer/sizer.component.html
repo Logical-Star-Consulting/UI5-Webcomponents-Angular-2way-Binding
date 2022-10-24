@@ -1,5 +1,5 @@
 <div>
-  <button type="button" (click)="dec()" title="smaller">-</button>
-  <button type="button" (click)="inc()" title="bigger">+</button>
-  <span [style.font-size.px]="size">FontSize: {{size}}px</span>
+  <ui5-button class="button" (click)="dec()" tooltip="smaller">-</ui5-button>
+  <ui5-button class="button" (click)="inc()" tooltip="bigger">+</ui5-button>
+  <span><ui5-label class="ResizableLabel" [style.font-size.px]="size">FontSize: {{size}}px</ui5-label></span>
 </div>
