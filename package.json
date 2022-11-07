@@ -1,7 +1,7 @@
 {
-  "name": "angular.io-example",
-  "version": "0.0.0",
-  "description": "Example project from an angular.io guide.",
+  "name": "ui5_web_components_angular_2way_binding_demo",
+  "version": "1.0.0",
+  "description": "A demo project to showcase 2 way binding using Angular and UI5 Web Components",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
