@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { SizerComponent } from './sizer/sizer.component';
 import { FormsModule } from '@angular/forms';
 
+import { NgxUi5WebComponentScopingDemoModule } from 'ngx-ui5-web-component-scoping-demo'
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    NgxUi5WebComponentScopingDemoModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [],

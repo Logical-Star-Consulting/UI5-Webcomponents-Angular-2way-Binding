@@ -1,4 +1,4 @@
-<ui5-title class="AppTitle" level="H1" id="two-way">Two-way Binding</ui5-title>
+<ui5-title class="AppTitle" level="H1" id="two-way">Scoping</ui5-title>
 <div id="two-way-1">
   <app-sizer [(size)]="fontSizePx"></app-sizer>
   <div><ui5-label [style.font-size.px]="fontSizePx">Resizable Text</ui5-label></div>
@@ -9,5 +9,6 @@
   <ui5-title class="SubTitle" level="H2">De-sugared two-way binding</ui5-title>
   <app-sizer [size]="fontSizePx" (sizeChange)="fontSizePx=$event"></app-sizer>
 </div>
+<lib-ui5-web-component-hello-world-view></lib-ui5-web-component-hello-world-view>
 
 
