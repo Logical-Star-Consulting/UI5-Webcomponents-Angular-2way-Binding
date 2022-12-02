@@ -1,14 +1,11 @@
-# Angular Based UI5 Web Components Scoping Demo (Micro Front End)
-This library was setup to demonstrate how scoping works with a micro front end.  Conceptually the same technique would also apply for a libary developed using UI5 Web Components also.  
+# Angular Based UI5 Web Components Scoping Demo 
+This project was forked from project [UI5-Webcomponents-Angular-2way-Binding](https://github.com/Logical-Star-Consulting/UI5-Webcomponents-Angular-2way-Binding) and extended to demonstrate how scoping works in UI5 Web Components with Angular.  
 
-## Dependent Application
-To run this demo you will also need to run the following application 
+A library was setup as part of [UI5-Webcomponents-Angular-Scoping-Lib](https://github.com/Logical-Star-Consulting/UI5-Webcomponents-Angular-Scoping-Lib), which incorporates components at a lower version of web components to that used in this project (which is based on v 1.9.1) to demonstrate how scoping works.  
 
-## Angular Version
+The generated library is already part of the project, but the source code can be accessed independently.
+
 ![Demo App](/assets/app.png)
-
-## UI5 Version
-![Demo App UI5](/assets/app-ui5.png)
 
 ## Angular Client Version
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.2.  To install the client run `npm install -g @angular/cli@14.2.2`.

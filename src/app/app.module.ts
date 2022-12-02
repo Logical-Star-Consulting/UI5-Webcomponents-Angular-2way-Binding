@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { SizerComponent } from './sizer/sizer.component';
 import { FormsModule } from '@angular/forms';
 
-import { NgxUi5WebComponentScopingDemoModule } from 'ngx-ui5-web-component-scoping-demo'
+ import { NgxUi5WebComponentScopingDemoModule } from 'ngx-ui5-web-component-scoping-demo'
 
 
 @NgModule({

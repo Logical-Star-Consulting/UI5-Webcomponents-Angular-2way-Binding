@@ -2,6 +2,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 // UI5 Web Components
 import "@ui5/webcomponents/dist/Button";
+import "@ui5/webcomponents/dist/Label";
 
 @Component({
   selector: 'app-sizer',
