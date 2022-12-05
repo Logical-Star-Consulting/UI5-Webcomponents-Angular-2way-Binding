@@ -1,7 +1,7 @@
 {
-  "name": "angular.io-example",
-  "version": "0.0.0",
-  "description": "Example project from an angular.io guide.",
+  "name": "ui5_web_components_angular_scoping_demo",
+  "version": "1.0.0",
+  "description": "Example project from an angular.io guide modified for UI5 Web Components to demo scoping",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -21,8 +21,9 @@
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
-    "@ui5/webcomponents": "^1.8.0",
+    "@ui5/webcomponents": "1.9.1",
     "angular-in-memory-web-api": "~0.14.0",
+    "ngx-ui5-web-component-scoping-demo": "file:src/libraries/ngx-ui5-web-component-scoping-demo-0.0.20.tgz",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
